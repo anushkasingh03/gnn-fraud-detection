@@ -25,4 +25,4 @@ lambda/deployment.zip
 # Environment variables and credentials
 .env
 .env.*
-.aws/
+.aws/notebooks/*.ipynb
