@@ -143,9 +143,3 @@ Detailed experiment results are available in the `outputs/` directory.
 ## Tech Stack
 
 **Python · PyTorch · PyTorch Geometric · GraphSAGE · GANs · scikit-learn · ONNX Runtime · Docker · AWS Lambda**
-
-## Takeaway
-
-GAN augmentation reduced false positives at the default threshold, but it did not outperform a properly tuned GraphSAGE baseline.
-
-The experiments showed that **threshold selection can have a greater impact than adding model complexity**, especially when balancing false positives against missed fraud.
