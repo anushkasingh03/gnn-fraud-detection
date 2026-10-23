@@ -57,7 +57,7 @@ Exported the trained GraphSAGE model to ONNX and built a lightweight inference h
 
 Local benchmarks showed sub-millisecond inference, with predictions matching the PyTorch implementation.
 
-An AWS Lambda-compatible Docker container and handler are included. **Cloud deployment is not yet complete.**
+An AWS Lambda-compatible Docker container and handler are included.
 
 ## Dataset
 
