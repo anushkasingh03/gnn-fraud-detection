@@ -1,0 +1,9 @@
+torch>=2.5
+torch-geometric>=2.6
+scikit-learn>=1.4
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+onnx>=1.16
+onnxruntime>=1.18
+onnxscript>=0.1

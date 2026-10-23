@@ -1,0 +1,21 @@
+{
+  "baseline_test_metrics": {
+    "precision_illicit": 0.7264150943396226,
+    "recall_illicit": 0.48427672955974843,
+    "f1_illicit": 0.5811320754716981,
+    "roc_auc": 0.8704852241803268,
+    "false_positive_rate": 0.010997345468335229,
+    "n_eval": 11184
+  },
+  "gan_augmented_test_metrics": {
+    "precision_illicit": 0.7817109144542773,
+    "recall_illicit": 0.4166666666666667,
+    "f1_illicit": 0.5435897435897435,
+    "roc_auc": 0.8699945800330564,
+    "false_positive_rate": 0.007015547971179371,
+    "n_eval": 11184
+  },
+  "false_positive_rate_change_pct": 36.20689655172413,
+  "n_synthetic_generated": 6924,
+  "gan_train_time_sec": 2.740290641784668
+}

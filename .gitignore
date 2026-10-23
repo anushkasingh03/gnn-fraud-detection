@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+
+# Dataset
+data/*
+!data/.gitkeep
+
+# Model checkpoints
+models/*.pt
+!models/baseline_sage.pt
+
+# ONNX model files
+lambda/model.onnx
+models/*.onnx
+models/*.onnx.data
+
+# Lambda deployment artifacts
+lambda/package/
+lambda/deployment.zip
+
+# Environment variables and credentials
+.env
+.env.*
+.aws/
